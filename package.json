@@ -12,6 +12,10 @@
   "bugs": "https://github.com/bryanjhv/js-class-info/issues",
   "license": "MIT",
   "author": "Bryan Horna <bryanjhv@gmail.com> (https://bryanjhv.github.io)",
+  "files": [
+    "lib/index.js"
+  ],
+  "main": "lib/index.js",
   "repository": "bryanjhv/js-class-info",
   "scripts": {
     "test": "mocha"
