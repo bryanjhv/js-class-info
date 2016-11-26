@@ -35,4 +35,29 @@ describe('Any class', () => {
 
   });
 
+  describe('is not', () => {
+
+    it('a number', () => {
+      assert(info(42) === null);
+      assert(info(3.14) === null);
+    });
+
+    it('a string', () => {
+      assert(info('hello world') === null);
+    });
+
+    it('an object', () => {
+      let obj = {
+        toString() {}
+      };
+
+      assert(info(obj) === null);
+    });
+
+    it('a Date', () => {
+      assert(info(new Date()) === null);
+    });
+
+  });
+
 });

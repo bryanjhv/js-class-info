@@ -20,6 +20,10 @@
   "scripts": {
     "test": "mocha"
   },
+  "dependencies": {
+    "is-class": "^0.0.4",
+    "is-function": "^1.0.1"
+  },
   "devDependencies": {
     "mocha": "^3.2.0"
   }
