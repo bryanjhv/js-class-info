@@ -1,0 +1,16 @@
+{
+  "name": "class-info",
+  "version": "0.0.0",
+  "description": "Get information about your ES5/ES6 class.",
+  "keywords": [
+    "class",
+    "object",
+    "info",
+    "debug"
+  ],
+  "homepage": "https://github.com/bryanjhv/js-class-info",
+  "bugs": "https://github.com/bryanjhv/js-class-info/issues",
+  "license": "MIT",
+  "author": "Bryan Horna <bryanjhv@gmail.com> (https://bryanjhv.github.io)",
+  "repository": "bryanjhv/js-class-info"
+}
