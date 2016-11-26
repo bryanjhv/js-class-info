@@ -26,4 +26,4 @@ project adheres to [Semantic Versioning](http://semver.org).
 - Tests to back the method.
 
 
-[1.0.1]: https://github.com/bryanjhv/js-class-info/compare/0.0.1...0.0.2
+[1.0.1]: https://github.com/bryanjhv/js-class-info/compare/1.0.0...1.0.1
