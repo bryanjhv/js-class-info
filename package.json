@@ -12,5 +12,11 @@
   "bugs": "https://github.com/bryanjhv/js-class-info/issues",
   "license": "MIT",
   "author": "Bryan Horna <bryanjhv@gmail.com> (https://bryanjhv.github.io)",
-  "repository": "bryanjhv/js-class-info"
+  "repository": "bryanjhv/js-class-info",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
 }
