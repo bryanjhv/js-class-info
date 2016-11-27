@@ -1,8 +1,10 @@
 const assert = require('assert'),
       info   = require('..');
 
-const ES5PointInfo = info(require('./es5-point')),
-      ES6PointInfo = info(require('./es6-point'));
+const ES5PointInfo   = info(require('./fixtures/es5-point')),
+      ES6PointInfo   = info(require('./fixtures/es6-point')),
+      ES5Point3DInfo = info(require('./fixtures/es5-point3d')),
+      ES6Point3DInfo = info(require('./fixtures/es6-point3d'));
 
 
 describe('Any class', () => {
@@ -31,6 +33,16 @@ describe('Any class', () => {
       let notResult = ['x', 'y'];
       assert.notDeepEqual(ES5PointInfo.instanceProperties, notResult);
       assert.notDeepEqual(ES6PointInfo.instanceProperties, notResult);
+    });
+
+    it('a parent class', () => {
+      assert(ES5Point3DInfo.parentClass.name === 'Point');
+      assert(ES6Point3DInfo.parentClass.name === 'Point');
+    });
+
+    it('no parent class', () => {
+      assert(ES5PointInfo.parentClass === null);
+      assert(ES6PointInfo.parentClass === null);
     });
 
   });
